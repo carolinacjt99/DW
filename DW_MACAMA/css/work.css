@@ -51,7 +51,7 @@ main{
     top: 450px;
     opacity:0.4;
 }
-works: img{
+.works img{
     float: right;
     display: block;
 
@@ -80,7 +80,7 @@ class
 /*
 @media (max-width: 1300px) { /*------------------------------------------1300*/
 
-}
+
 
 @media (max-width: 1000px) {
     /*--------------------------------------------------------------1000 laptop*/
