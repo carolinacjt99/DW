@@ -3,17 +3,16 @@
     margin: 160px auto 100px auto;
     width: 90%;
     flex-wrap: wrap;
-
   }
   
   
   .cell {  
     margin-bottom: 5px;
     display: flex;         
+    justify-content: space-around;
     position: relative;
-    flex-wrap: wrap;
     width: 50%;
-
+    margin-top: 40px;
   }
 
   .tituloP{
@@ -21,26 +20,28 @@
     font-size: 3em;
     font-style: normal;
     letter-spacing: 0em;
-    width: 600%;
+    width: 60%;
     height: 100%;
     margin-bottom: 60px;
     line-height: 52 px;
    }
-
-  img{
+  
+  #primeira{
       max-width: 100%;
-      padding:8px;
+  }
+  #segunda{
+    max-width: 100%;
+
   }
 
   .cell p{
-    width: 100%;
-    margin-top: 60px;
     font-family: Roboto;
     font-size: 1.4em;
     font-style: normal;
     letter-spacing: 0em;
     line-height: 23px;
   }
+
 
   #terço{
     width: 50%;

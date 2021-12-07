@@ -1,0 +1,63 @@
+.grid {
+    display: flex;         
+    margin: 160px auto 100px auto;
+    width: 90%;
+    flex-wrap: wrap;
+
+  }
+  
+  
+  .cell {  
+    margin-bottom: 5px;
+    display: flex;         
+    position: relative;
+    flex-wrap: wrap;
+    width: 50%;
+
+  }
+
+  .tituloP{
+    font-family: Roboto;
+    font-size: 3em;
+    font-style: normal;
+    letter-spacing: 0em;
+    width: 600%;
+    height: 100%;
+    margin-bottom: 60px;
+    line-height: 52 px;
+   }
+
+  img{
+      max-width: 100%;
+      padding:8px;
+  }
+
+  .cell p{
+    width: 100%;
+    margin-top: 60px;
+    font-family: Roboto;
+    font-size: 1.4em;
+    font-style: normal;
+    letter-spacing: 0em;
+    line-height: 23px;
+    padding: 16px;
+  }
+
+  p{
+    width: 100%;
+    margin-top: 60px;
+    font-family: Roboto;
+    font-size: 1.4em;
+    font-style: normal;
+    letter-spacing: 0em;
+    line-height: 23px;
+    padding: 16px;
+
+  }
+  #primeira{
+    width: 100%;
+  }
+
+  video{
+      margin-bottom: 40px;
+  }

@@ -10,13 +10,14 @@ body{
 
 main{
   align-items: top;
-  margin-left: 30px;
+  margin-left: 40px;
   margin-top: 30px;
   
 }
 
 .primeiro{
      position:absolute; 
+     margin-top: 3.9vw;
 }
 .restantes{
     opacity:0.4;
