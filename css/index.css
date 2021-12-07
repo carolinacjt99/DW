@@ -138,3 +138,24 @@ color: #000000;
     visibility: visible;
         opacity: 1;
   }
+
+  
+.grade a:link {
+    color: rgb(255, 255, 255);
+  text-decoration: none;
+  }
+  
+  /* visited link */
+  .grade  a:visited {
+    color: rgb(255, 255, 255);
+  }
+  
+  /* mouse over link */
+  .grade  a:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  /* selected link */
+  .grade  a:active {
+    color: rgb(255, 255, 255);
+  }

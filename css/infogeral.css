@@ -94,23 +94,23 @@ flex-direction: row;
 }
 
 
-a:link {
+.topnavbar a:link {
   color: rgb(0, 0, 0);
 text-decoration: none;
 }
 
 /* visited link */
-a:visited {
+.topnavbar a:visited {
   color: rgb(0, 0, 0);
 }
 
 /* mouse over link */
-a:hover {
+.topnavbar a:hover {
   color: rgb(0, 34, 187);
 }
 
 /* selected link */
-a:active {
+.topnavbar a:active {
   color: rgb(2, 2, 192);
 }
 
