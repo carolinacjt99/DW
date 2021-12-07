@@ -1,0 +1,45 @@
+.grid {
+    display: flex;         
+    margin: 160px auto 100px auto;
+    width: 90%;
+    flex-wrap: wrap;
+  }
+  
+  
+  .cell {  
+    margin-bottom: 5px;
+    display: flex;         
+    justify-content: space-around;
+    position: relative;
+    width: 50%;
+    margin-top: 40px;
+  }
+
+  .tituloP{
+    font-family: Roboto;
+    font-size: 3em;
+    font-style: normal;
+    letter-spacing: 0em;
+    width: 50%;
+    height: 100%;
+    margin-bottom: 60px;
+    line-height: 52 px;
+   }
+  
+  #primeira{
+      max-width: 100%;
+  }
+  #segunda{
+    max-width: 100%;
+
+  }
+
+  .cell p{
+    font-family: Roboto;
+    font-size: 1.4em;
+    font-style: normal;
+    letter-spacing: 0em;
+    line-height: 23px;
+  }
+
+
