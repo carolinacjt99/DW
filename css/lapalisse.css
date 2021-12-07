@@ -1,0 +1,33 @@
+.conteudo{
+    margin-top: 200px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 2em;
+    font-family: RobotoBold;
+}
+
+.fotos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+#textinho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    font-size: 1.1em;
+
+}
+
+#textinho p{
+    padding-top: 10px;
+
+}
+
+#boldar{
+    font-family: RobotoBold;
+}
