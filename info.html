@@ -4,8 +4,8 @@
     <title>Info</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <link rel="stylesheet" href="infogeral.css"> 
-    <link rel="stylesheet" href="info.css"> 
+    <link rel="stylesheet" href="css/infogeral.css"> 
+    <link rel="stylesheet" href="css/info.css"> 
     
 </head>
 <body>
@@ -35,159 +35,97 @@
     
         </nav>
       </header>
-<main>
-    <p class="linha">
-        We are a creative agency in Coimbra specializing in branding & advertising. We work with clients starting from the initial brand strategy phase to the design, art direction and final production of a project. We believe in creating beautiful, emotion-driven work that functions for our client’s goals and resonates with their audiences. Our 3 members are:
-    </p>
-
-    <article>
-        <ul id="slides">
-            <li class="slide showing"><img src="img/carolina.jpg" width="10%" alt="Project Image"/></li>
-            <li class="slide"><img src="img/mariana.jpg" alt="Project Image"/></li>
-            <li class="slide"> <img src="img/marianaf.jpg" alt="Project Image"/></li>
-          
-
-        </ul>
-
-
-        <div class="buttons">
-            <button class="controls" id="previous"><</button>
-            <button class="controls" id="pause">=</button>
-            <button class="controls" id="next">></button>
+      <div class="bola"></div>
+      <main>
+       
+        <div class="container flex">
+           
+            <div class="item flex-item-1">
+                <h1 id="titulos"> MA</h1>
+                <h1 id="titulos"> CA</h1>
+                <h1 id="titulos"> MA</h1>
+            </div>
+            <div class="item flex-item-1">
+                <h1 id="titulos2">who</h1>
+                <h1 id="titulos2">we</h1>
+                <h1 id="titulos2">are</h1>
+            </div>
+            <div class="item flex-item-1">
+                <h1 id="titulos">MA</h1>
+                <h1 id="titulos">CA</h1>
+                <h1 id="titulos">MA</h1>
+            </div>
         </div>
 
-<!--
-        <ul id="slides3">
-            <li class="slide3 showing3"><h2>CAROLINA TORRES</h2></li>
-            <li class="slide3"><h2>MARIANA SILVA</h2></li>
-            <li class="slide3"> <h2>MARIANA FERREIRA</h2></li>
-          
-
-        </ul>
-    -->
-        
-
-        <ul class="slides3">
-            <li >Advertising</li>
-            <li>Art Direction</li>
-            <li>  Animation   </li>
-            <li>  Branding    </li>
-            <li>Brand Strategy</li>
-            <li>Consultancy  </li>
-            <li>Copywriting</li>
-            <li>Concepts</li>
-            <li>Commercials</li>
-            <li>Digital</li>
-            <li>Design</li>
-            <li>Environmental</li>
-            <li>Exhibition</li>
-            <li>Film & Video </li>
-            <li>Identity</li>
-            <li>Illustration</li>
-            <li>Installation</li>
-            <li>Interactive</li>
-            <li>Naming</li>
-            <li>Mural Design </li>
-            <li>Packaging</li>
-            <li>Photography</li>
-            <li>Print / OOH </li>
-            <li>Social Strategy </li>
-            <li>Social Content </li>
-            <li>Strategy</li>
-            <li>Target Audience </li>
-            <li>Website Design </li>
- 
-        </ul>
-        <div class="project-title">
-            <h2>CAROLINA TORRES</h2>
+        <div class="segundo">
+            We are a creative agency in Coimbra specializing in branding & advertising. We work with clients
+            starting
+            from the initial brand strategy phase to the design, art direction and final production of a project. We
+            believe in creating beautiful, emotion-driven work that functions for our client’s goals and resonates
+            with
+            their audiences. Our 3 members are:
         </div>
 
-        <div class="projectinfo">
-            <p> Accounts, Communications, Partnerships, Art Direction, Design, Typography, Digital Design </p>
+
+        <div class="grid">
+            <div class="cell">
+                <img src="img/info/carolina.jpeg" />
+
+                <p>Accounts, Communications, Partnerships, Art Direction, Design, Typography, Digital Design <br>
+                    <a href="behance.com">Behance</a>
+
+                </p>
+            </div>
+
+            <div class="cell">
+                <img src="img/info/mariana.jpeg" />
+                <p>Brand Identity, Typography, Editorial and Exhibition Design, Art Direction, Illustration, Copywriting
+                    <br>
+                    <a href="behance.com">Behance</a>
+
+                </p>
+            </div>
+            <div class="cell">
+                <img src="img/info/marianaf.jpeg" />
+                <p>Design, Illustration, Digital Design, Art Direction, Animation, 3D, Type Design <br>
+                    <a href="behance.com">Behance</a>
+                </p>
+
+            </div>
         </div>
-    </article>
 
-    <script>
-        var slides = document.querySelectorAll('#slides .slide');
-        var slides3 = document.querySelectorAll('#slides3 .slide3');
 
-        var currentSlide = 0;
-        var slideInterval = setInterval(nextSlide,2000);
-    
-        function nextSlide() {
-            goToSlide(currentSlide+1);
-        }
+        <div class="lista1">
+            <p class="lista">Advertising</p>
+            <p class="lista">Art Direction</p>
+            <p class="lista"> Animation </p>
+            <p class="lista"> Branding </p>
+            <p class="lista">Brand Strategy</p>
+            <p class="lista">Consultancy </p>
+            <p class="lista">Copywriting</p>
+            <p class="lista">Concepts</p>
+            <p class="lista">Commercials</p>
+            <p class="lista">Digital</p>
+            <p class="lista">Design</p>
+            <p class="lista">Environmental</p>
+            <p class="lista">Exhibition</p>
+            <p class="lista">Film & Video </p>
+            <p class="lista">Identity</p>
+            <p class="lista">Illustration</p>
+            <p class="lista">Installation</p>
+            <p class="lista">Interactive</p>
+            <p class="lista">Naming</p>
+            <p class="lista">Mural Design </p>
+            <p class="lista">Packaging</p>
+            <p class="lista">Photography</p>
+            <p class="lista">Print / OOH </p>
+            <p class="lista">Social Content </p>
+            <p class="lista">Website Design </p>
+        </div>
 
-        function nextSlide3() {
-            goToSlide3(currentSlide+1);
-        }
-    
-        function previousSlide() {
-            goToSlide(currentSlide-1);
-        }
+    </main>
 
-        function previousSlide3() {
-            goToSlide3(currentSlide-1);
-        }
     
-        function goToSlide(n) {
-            slides[currentSlide].className = 'slide';
-            currentSlide = (n+slides.length)%slides.length;
-            slides[currentSlide].className = 'slide showing';
-        }
-    
-        function goToSlide3(n) {
-            slides3[currentSlide].className = 'slide3';
-            currentSlide = (n+slides3.length)%slides3.length;
-            slides3[currentSlide].className = 'slide3 showing3';
-        }
-    
-        var playing = true;
-        var pauseButton = document.getElementById('pause');
-    
-        function pauseSlideshow() {
-            pauseButton.innerHTML = 'Play';
-            playing = false;
-            clearInterval(slideInterval);
-        }
-    
-        function playSlideshow() {
-            pauseButton.innerHTML = '=';
-            playing = true;
-            slideInterval = setInterval(nextSlide,2000);
-        }
-        function playSlideshow3() {
-            pauseButton.innerHTML = '=';
-            playing = true;
-            slideInterval = setInterval(nextSlide3,2000);
-        }
-    
-        pauseButton.onclick = function() {
-            if(playing) {
-                pauseSlideshow();
-            } else {
-                playSlideshow();
-                playSlideshow3();
-            }
-        };
-    
-        var next = document.getElementById('next');
-        var previous = document.getElementById('previous');
-    
-        next.onclick = function() {
-            pauseSlideshow();
-            nextSlide();
-            nextSlide3();
-        };
-        previous.onclick = function() {
-            pauseSlideshow();
-            previousSlide();
-            previousSlide3();
-        };
-
-        </script>
-
-</main>
 
 <footer>
     <div class="fot1"> 
